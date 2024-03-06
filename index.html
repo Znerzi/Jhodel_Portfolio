@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Porfolio</title>
+        <link rel="stylesheet" href="./styles/modern-normalize.css">
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./components/header.css">
+        <link rel="stylesheet" href="./components/hero.css">
+        <link rel="stylesheet" href="./components/about.css">
+        <link rel="stylesheet" href="./components/projects.css">
+        <link rel="stylesheet" href="./components/contact.css">
+        <link rel="stylesheet" href="./components/footer.css">
+        <link rel="stylesheet" href="./styles/utils.css">
+
+    </head>
+    <body>
+       <header class="header container">
+            <nav>
+                <ul class="header__menu">
+                    <li>
+                        <a class="header__link" href="#ABOUT">About</a>
+                    </li>
+                    <li>
+                        <a class="header__link" href="#PROJECTS">projects</a>
+                    </li>
+                    <li class="header__line"></li>
+                    <li>
+                        <a class="header__projects btn" href="#CONTACTS">contacts</a>
+                    </li>
+                </ul>
+                <button class="header__bars">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                     fill="none"
+                     viewBox="0 0 24 24" 
+                     strokeWidth={1.5}
+                     stroke="currentColor">
+
+                        <path strokeLinecap="round" 
+                        strokeLinejoin="round"
+                         d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                      </svg>
+                      
+                </button>
+            </nav>
+       </header>
+
+       <main>
+
+        <section class="hero container">
+            <img class="hero__img" src="./images/the hulk.jpg" alt="Profile picture">
+            <h2 class="hero__subtitle">Hi, I'm Jhodel!</h2>
+            <h1 class="hero__title">FRONT-END<br>WEB-DEVELOPER.</h1>
+            <p class="hero__description">
+                Greetings! I'm a passionate <strong>front-end web developer</strong> with a flair for creating visually stunning websites that leave a lasting impression.
+                Though I'm relatively new to this exciting journey, I'm fueled by enthusiasm and a commitment to excellence.
+                With every project I embark on, I pour my heart into the process, ensuring that each design is carefully crafted and meticulously polished.
+                And I'm constantly exploring new trends and cutting-edge techniques to make your website shine like a diamond in the digital realm.🎨✨
+            </p>
+            <a class="hero__btn btn" href="">RESUME</a>
+        </section>
+
+        <section class="about container section">
+
+            <div class="about__content">
+                <h2 id="ABOUT" class="about__title">About</h2>
+
+                <p class="about__description">
+                    Hey there! I'm a passionate <strong>front-end web developer</strong>, While I may not know it all (who does, right?),
+                    I embrace every opportunity to grow and expand my skills.
+                    Learning is like a thrilling adventure for me, and I'm a lightning-fast learner, always hungry for
+                    new knowledge and fresh challenges.
+                </p>
+                    
+                <hr class="about__hr"/>
+                <h3 id="TOOLS" class="about__subtitle">Tools</h3>
+                <div class="about__ul-container">
+                    <ul class="about__ul">
+                        <li class="about__list">HTML</li>
+                        <li class="about__list">CSS</li>
+                        <li class="about__list">JAVASCRIPT</li>
+                    </ul>
+                    <ul class="about__ul">
+                        <li class="about__list">JAVA</li>
+                        <li class="about__list">TAILWINDCSS</li>
+                        <li class="about__list">VSCODE</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about__img-wrapper">
+                <img class="about__img" src="./images/photo_2023-04-13_12-39-56.jpg" alt="Profile picture">
+            </div>
+
+        </section>
+
+        <section class="section container">
+            <div class="work__content" >
+                <h2 id="PROJECTS" class="work__title1">Projects</h2>
+                
+                <p class="work__description1">
+                    These projects, along with numerous others, have shaped me into a well-rounded web developer with an ever-growing thirst for knowledge and innovation.
+                    As I continue on this exciting path, I eagerly look forward to taking on new challenges, expanding my skillset, and making a positive impact in the world of web development.
+                </p>
+
+            </div>
+        </section>
+
+        <section class="work section container">
+            <div class="work__container">
+                
+                <!--PROJECT 1-->
+                <h3 class="work__project-title">TITLE OF THE PROJECT</h3>
+                <div class="work__img-wrapper work__image1">
+                    <img src="https://images.unsplash.com/photo-1689579230089-5f3715ebe0f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+                <div class="work__project work__content1">
+                    <h3 class="work__project-subtitle">NAME OF THE PROJECT</h3>
+                    <p class="work__description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Hic, quaerat vero laborum maxime suscipit sapiente quia in natus dicta,
+                        aspernatur eius minus! Ipsum dolorem temporibus sapiente. Nisi, illum. Iusto, est.
+                    </p>
+                    <a class="btn work__project-btn" href="https://www.google.com/" target="_blank">WEBSITE</a>
+                </div>
+    
+                <!--PROJECT 2-->
+                <h3 class="work__project-title">TITLE OF THE PROJECT2</h3>
+                <div class="work__img-wrapper work__image2">
+                    <img src="https://plus.unsplash.com/premium_photo-1689596510502-b83cd3ebc47e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+                <div class="work__project work__content2">
+                    <h3 class="work__project-subtitle">NAME OF THE PROJECT</h3>
+                    <p class="work__description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Hic, quaerat vero laborum maxime suscipit sapiente quia in natus dicta,
+                        aspernatur eius minus! Ipsum dolorem temporibus sapiente. Nisi, illum. Iusto, est.
+                    </p>
+                    <a class="btn work__project-btn" href="https://www.google.com/" target="_blank">WEBSITE</a>
+                </div>
+    
+                 <!--PROJECT3 -->
+                 <h3 class="work__project-title">TITLE OF THE PROJECT3</h3>
+                 <div class="work__img-wrapper work__image3">
+                     <img src="https://images.unsplash.com/photo-1689164293624-9e9c11359c18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                 </div>
+                 <div class="work__project work__content3">
+                    <h3 class="work__project-subtitle">NAME OF THE PROJECT</h3>
+                     <p class="work__description">
+                         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                         Hic, quaerat vero laborum maxime suscipit sapiente quia in natus dicta,
+                         aspernatur eius minus! Ipsum dolorem temporibus sapiente. Nisi, illum. Iusto, est.
+                     </p>
+                     <a class="btn work__project-btn" href="https://www.google.com/" target="_blank">WEBSITE</a>
+                 </div>
+    
+                 <!--PROJECT4 -->
+                 <h3 class="work__project-title">TITLE OF THE PROJECT4</h3>
+                 <div class="work__img-wrapper work__image4">
+                     <img src="https://images.unsplash.com/photo-1689568666264-8a030434f121?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                 </div>
+                 <div class="work__project work__content4">
+                    <h3 class="work__project-subtitle">NAME OF THE PROJECT</h3>
+                     <p class="work__description">
+                         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                         Hic, quaerat vero laborum maxime suscipit sapiente quia in natus dicta,
+                         aspernatur eius minus! Ipsum dolorem temporibus sapiente. Nisi, illum. Iusto, est.
+                     </p>
+                     <a class="btn work__project-btn" href="https://www.google.com/" target="_blank">WEBSITE</a>
+                 </div>
+
+            </div>
+
+            
+            
+        </section>
+        
+        <section id="CONTACTS" class="contact section container">
+            <h2 class="contact__title">Get In Contact</h2>
+            <p class="contact__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos perspiciatis nemo voluptatibus! Reprehenderit ducimus distinctio aspernatur adipisci earum exercitationem, autem mollitia cumque! Ducimus consectetur optio ipsa illo quas possimus nulla.
+            </p>
+            <a class="contact__btn btn" href="mailto:DatilesJhodel01@gmailcom">Reach Out</a>
+        </section>
+
+       </main>
+
+       <footer class="footer section container">
+            <h3 class="footer__title">~ Jhodel D. Datiles~</h3>
+       </footer>
+
+        
+    </body>
+</html>
